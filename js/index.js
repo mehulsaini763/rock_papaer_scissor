@@ -65,11 +65,11 @@ function computer_move(){
     let random = Math.random();
     let computer_moves ='';
     if(random >=0 && random < 1/3){
-        document.querySelector('.computer_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/rock-emoji.jpg" width:"100%" height:"100%" />';
+        document.querySelector('.computer_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/rock-emoji.png" width:"100%" height:"100%" />';
         computer_moves = 'rock';
     }
     else if(random >= 1/3 && random < 2/3){
-        document.querySelector('.computer_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/paper-emoji.png" width:"100%" height:"100%" />';
+        document.querySelector('.computer_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/paper-emoji.jpg" width:"100%" height:"100%" />';
         computer_moves = 'paper';
     }
     else if(random >= 2/3 && random < 1){
