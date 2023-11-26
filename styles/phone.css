@@ -1,0 +1,26 @@
+@media screen and (min-width: 100px) and (max-width: 900px) {
+  .container {
+    min-height: 100vh;
+  }
+  .box1 {
+    width: 100%;
+    height: 50%;
+  }
+  .display button {
+    padding: 2rem;
+  }
+  .js-result {
+    width: 100vw;
+    font-size: 2.5rem;
+  }
+  .box2 {
+    width: 100vw;
+  }
+  .your_choice h2,
+  .computer_choice h2 {
+    font-size: 1.5rem;
+  }
+  .computer_choice {
+    gap: 0rem;
+  }
+}
