@@ -7,7 +7,7 @@ function user_move(move){
     const computer_moves = computer_move();
     let result = '';
     if(move === 'rock'){
-        document.querySelector('.your_choice_img').innerHTML = '<img src="../images/rock-emoji.png"width:"100%" height:"100%" />';
+        document.querySelector('.your_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/rock-emoji.png"width:"100%" height:"100%" />';
         if(computer_moves === 'rock'){
             score.ties++;
             result = "It's a Tie!";
@@ -22,7 +22,7 @@ function user_move(move){
         }
     }
     else if(move === 'paper'){
-        document.querySelector('.your_choice_img').innerHTML = '<img src="../images/paper-emoji.png"width:"100%" height:"100%" />';
+        document.querySelector('.your_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/paper-emoji.png"width:"100%" height:"100%" />';
         if(computer_moves === 'rock'){
             score.win++;
             result = 'You Win';
@@ -37,7 +37,7 @@ function user_move(move){
         }
     }
     else if(move === 'scissor'){
-        document.querySelector('.your_choice_img').innerHTML = '<img src="../images/scissors-emoji.png"width:"100%" height:"100%" />';
+        document.querySelector('.your_choice_img').innerHTML = '<img src="https://mehulsaini763.github.io/rock_papaer_scissor/images/scissors-emoji.png"width:"100%" height:"100%" />';
         if(computer_moves === 'rock'){
             score.loose++;
             result = 'You Loose';
